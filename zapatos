@@ -1,0 +1,31 @@
+<?php
+// Descuento de la tienda Spring Ste
+$preciozapato=150000;
+$descuento1=100%10;
+$descuento2=100/20;
+$descuento3=100/40;
+
+$total=$preciozapato*5;
+$totalcondescuento=$total*$descuento2;
+
+echo("tienda Spring Ste");
+echo("<br>");
+
+echo("su total es ");
+echo("<br>");
+
+echo($total);
+echo("<br>");
+
+echo("su total con descuento es");
+echo("<br>");
+
+echo($totalcondescuento);
+echo("<br>");
+
+echo("gracias por su compra le desea tiendas spring ste ");
+
+
+
+
+?>
